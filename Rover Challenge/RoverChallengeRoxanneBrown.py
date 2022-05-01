@@ -32,5 +32,5 @@ for numRovers in range(amountRoversInput):
 for rover in listRovers:
     print (rover.posx, " ", rover.posy, " " , rover.direction)
 
-print("\n")
+print()
 plateau1.printGrid(listRovers) 
